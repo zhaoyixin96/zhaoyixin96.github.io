@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: zhaoyixin's blog
+subtitle: zhaoyixin.xyz
 description: ''
 keywords:
-author: John Doe
-language: en
+author: zhaoyixin
+language: zh-CN
 timezone: ''
 
 # URL
@@ -90,9 +90,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/zhaoyixin96/zhaoyixin96.github.io
+  branch: master
