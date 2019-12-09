@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zhaoyixin's blog
-subtitle: zhaoyixin.xyz
+title: ZhaoYixin's blog
+subtitle: Quick notes
 description: ''
 keywords:
 author: zhaoyixin
-language: zh-CN
+language: zh-Hans
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://zhaoyixin.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -90,7 +90,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: pure
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
