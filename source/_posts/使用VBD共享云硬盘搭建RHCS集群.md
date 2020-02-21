@@ -16,18 +16,24 @@ tags:
 - ecs-share-002:10.110.31.206
 
 将共享云硬盘挂载到ecs-share-001和ecs-share-002两台云服务器上。
+
 # 配置
+
 - 1核CPU
 - 2G内存
 - Centos6.5
 - 内网互通
+
 # 搭建流程
+
 1. 配置云服务器网络
 2. 安装RHCS集群
 3. 创建集群
 4. 配置磁盘
 5. 验证磁盘共享功能
+
 # 配置云服务器网络
+
 本操作在三个节点都要执行，现以ecs-share-001为例
 ```
 [root@ecs-share-001 ~]# vi /etc/hosts
@@ -47,10 +53,13 @@ tags:
 
 ```
 # 安装RHCS集群
+
 为业务节点安装ricci软件，为管理节点安装luci软件。
 - luci。RHCS集群管理工具的主控端，提供了管理RHCS集群的web页面，管理集群主要是通过跟集群中其他节点上的ricci通信来完成的。
 - ricci。RHCS集群管理工具的受控端，安装在集群中的其他节点上，luci就是通过每一个节点上的ricci管理后端。
+
 ## 安装ricci
+
 本操作在ecs-share-001和ecs-share-002上来完成，现以ecs-share-001为例。
 
 下载并安装ricci软件包

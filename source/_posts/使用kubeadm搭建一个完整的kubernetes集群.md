@@ -20,6 +20,7 @@ tags:
 - 内网互通
 
 # 部署流程
+
 1. 在所有节点安装 Docker 和 kubeadm
 2. 部署 Kubernetes Master
 3. 部署容器网络插件
